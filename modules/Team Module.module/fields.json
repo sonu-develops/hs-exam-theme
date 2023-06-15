@@ -1,0 +1,151 @@
+[ {
+  "id" : "31f252d6-62a7-6d02-51a1-14b393c7c5fb",
+  "name" : "seaction_heading",
+  "display_width" : null,
+  "label" : "Seaction Heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<h2>Our Team</h2>"
+}, {
+  "id" : "2c538f33-9da9-1ef6-1631-c7e8bd46fa30",
+  "name" : "edit_team_listing",
+  "display_width" : null,
+  "label" : "Edit Team Listing",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 6
+  },
+  "children" : [ {
+    "id" : "644ae4f4-dffb-e472-119e-b77e282bb7f7",
+    "name" : "edit_profile",
+    "display_width" : null,
+    "label" : "Edit Profile",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://24175779.fs1.hubspotusercontent-na1.net/hubfs/24175779/profile.jpg",
+      "alt" : "profile",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 667,
+      "max_width" : 1000,
+      "max_height" : 667
+    }
+  }, {
+    "id" : "ccb38c78-faaa-a61c-8435-de7dcd5ff1d4",
+    "name" : "edit_profile_name",
+    "display_width" : null,
+    "label" : "Edit Profile Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Tom Ford"
+  }, {
+    "id" : "47002264-ab1e-4737-a5a4-7ada8a21af71",
+    "name" : "edit_profile_designation",
+    "display_width" : null,
+    "label" : "Edit Profile Designation",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "CEO"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "edit_profile" : {
+      "size_type" : "auto",
+      "src" : "https://24175779.fs1.hubspotusercontent-na1.net/hubfs/24175779/profile.jpg",
+      "alt" : "profile",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 667,
+      "max_width" : 1000,
+      "max_height" : 667
+    },
+    "edit_profile_name" : "Tom Ford",
+    "edit_profile_designation" : "CEO"
+  }, {
+    "edit_profile" : {
+      "size_type" : "auto",
+      "src" : "https://24175779.fs1.hubspotusercontent-na1.net/hubfs/24175779/profile.jpg",
+      "alt" : "profile",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 667,
+      "max_width" : 1000,
+      "max_height" : 667
+    },
+    "edit_profile_name" : "Tom Ford",
+    "edit_profile_designation" : "CEO"
+  }, {
+    "edit_profile" : {
+      "size_type" : "auto",
+      "src" : "https://24175779.fs1.hubspotusercontent-na1.net/hubfs/24175779/profile.jpg",
+      "alt" : "profile",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 667,
+      "max_width" : 1000,
+      "max_height" : 667
+    },
+    "edit_profile_name" : "Tom Ford",
+    "edit_profile_designation" : "CEO"
+  }, {
+    "edit_profile" : {
+      "size_type" : "auto",
+      "src" : "https://24175779.fs1.hubspotusercontent-na1.net/hubfs/24175779/profile.jpg",
+      "alt" : "profile",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 667,
+      "max_width" : 1000,
+      "max_height" : 667
+    },
+    "edit_profile_name" : "Tom Ford",
+    "edit_profile_designation" : "CEO"
+  }, {
+    "edit_profile" : {
+      "size_type" : "auto",
+      "src" : "https://24175779.fs1.hubspotusercontent-na1.net/hubfs/24175779/profile.jpg",
+      "alt" : "profile",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 667,
+      "max_width" : 1000,
+      "max_height" : 667
+    },
+    "edit_profile_name" : "Tom Ford",
+    "edit_profile_designation" : "CEO"
+  }, {
+    "edit_profile" : {
+      "size_type" : "auto",
+      "src" : "https://24175779.fs1.hubspotusercontent-na1.net/hubfs/24175779/profile.jpg",
+      "alt" : "profile",
+      "loading" : "lazy",
+      "width" : 1000,
+      "height" : 667,
+      "max_width" : 1000,
+      "max_height" : 667
+    },
+    "edit_profile_name" : "Tom Ford",
+    "edit_profile_designation" : "CEO"
+  } ]
+} ]

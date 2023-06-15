@@ -1,0 +1,31 @@
+[ {
+  "id" : "be1c3951-9530-5307-aae4-5001d0140eb2",
+  "name" : "edit_header_background_color",
+  "display_width" : null,
+  "label" : "Edit Header Background Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#FAFAFA",
+    "opacity" : 100
+  }
+}, {
+  "id" : "9ece1a4f-5ae2-c667-660e-cdb628b99899",
+  "name" : "edit_heading_content",
+  "display_width" : null,
+  "label" : "Edit Heading Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<h1>Cats are wonderfull</h1>\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+}, {
+  "id" : "f51eec36-03fd-e2fc-d02e-3a645a5964c9",
+  "name" : "edit_menu",
+  "display_width" : null,
+  "label" : "Edit Menu",
+  "required" : false,
+  "locked" : false,
+  "type" : "menu",
+  "default" : 107322863654
+} ]

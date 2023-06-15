@@ -1,0 +1,22 @@
+[ {
+  "id" : "ffda40ab-3df1-4014-15fd-70bdec5edd0c",
+  "name" : "menu_field",
+  "display_width" : null,
+  "label" : "Menu",
+  "required" : false,
+  "locked" : false,
+  "type" : "menu",
+  "default" : 107322863654
+}, {
+  "id" : "a40e4b31-d166-47c9-b191-1af74169c236",
+  "name" : "footer_background_color",
+  "display_width" : null,
+  "label" : "Footer Background Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#EEEEEE",
+    "opacity" : 100
+  }
+} ]

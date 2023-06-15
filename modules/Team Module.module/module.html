@@ -1,0 +1,31 @@
+<div class="team-module">
+    <div class="container">
+      <div class="team-heading">
+       {{ module.seaction_heading }}
+      </div>
+        <div class="team-main">
+            {% for item in module.edit_team_listing %}
+                <div class="team-item">
+                     <div class="team-item-sty">
+                    <div class="team-style">
+                        {% if item.edit_profile.src %}
+                            {% set sizeAttrs = 'width="{{ item.edit_profile.width }}" height="{{ item.edit_profile.height }}"' %}
+                            {% if item.edit_profile.size_type == 'auto' %}
+                                {% set sizeAttrs = 'width="{{ item.edit_profile.width }}" height="{{ item.edit_profile.height }}" style="max-width: 100%; height: auto;"' %}
+                                {% elif item.edit_profile.size_type == 'auto_custom_max' %}
+                                {% set sizeAttrs = 'width="{{ item.edit_profile.max_width }}" height="{{ item.edit_profile.max_height }}" style="max-width: 100%; height: auto;"' %}
+                            {% endif %}
+                            {% set loadingAttr = item.edit_profile.loading != 'disabled' ? 'loading="{{ item.edit_profile.loading }}"' : '' %}
+                            <img src="{{ item.edit_profile.src }}" alt="{{ item.edit_profile.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+                        {% endif %}
+                    </div>
+                    <div class="tem-content">
+                        <h3>{{ item.edit_profile_name }}</h3>
+                        <h4>{{ item.edit_profile_designation }}</h4>
+                    </div>
+                </div>
+          </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
